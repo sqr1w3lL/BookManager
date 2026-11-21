@@ -1,0 +1,25 @@
+﻿  LAB4.cpp
+C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,34): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "initializer list" (или приемлемое преобразование отсутствует)
+      C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(23,1):
+      может быть "Author &Author::operator =(Author &&)"
+          C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,34):
+          "Author &Author::operator =(Author &&)": невозможно преобразовать аргумент 2 из "initializer list" в "Author &&"
+              C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+              Причина: невозможно преобразовать "initializer list" в "Author"
+              C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+              Author::Author: функция не принимает 3 аргументов
+                  C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+                  при попытке сопоставить список аргументов "(const std::string, int, int)"
+      C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(23,1):
+      или       "Author &Author::operator =(const Author &)"
+          C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,34):
+          "Author &Author::operator =(const Author &)": невозможно преобразовать аргумент 2 из "initializer list" в "const Author &"
+              C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+              Причина: невозможно преобразовать "initializer list" в "const Author"
+              C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+              Author::Author: функция не принимает 3 аргументов
+                  C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,38):
+                  при попытке сопоставить список аргументов "(const std::string, int, int)"
+      C:\Users\maksi\OneDrive\Рабочий стол\ДЗ\LAB4\LAB4\LAB4.cpp(83,34):
+      при попытке сопоставить список аргументов "(Author, initializer list)"
+  
